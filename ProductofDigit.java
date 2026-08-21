@@ -5,8 +5,10 @@ public class ProductofDigit {
 
         System.out.println("Enter number");
         int N = sc.nextInt();
+
         int product = 1;
         int digit;
+        
         while(N != 0) {
             digit = N % 10;
             product = product * digit;
