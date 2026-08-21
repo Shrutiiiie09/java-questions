@@ -4,15 +4,15 @@ public class ProductofDigit {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter number");
-        int N = sc.nextInt();
+        int n = sc.nextInt();
 
         int product = 1;
         int digit;
-        
-        while(N != 0) {
-            digit = N % 10;
+
+        while(n != 0) {
+            digit = n % 10;
             product = product * digit;
-            N = N / 10;
+            n = n / 10;
         }
         System.out.println("Product of digit is = " +product);
         sc.close();
