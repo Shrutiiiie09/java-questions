@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class SumofDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter number");
         int N = sc.nextInt();
         int sum = 0;
         int digit;
@@ -10,7 +12,7 @@ public class SumofDigits {
             sum = sum + digit;
             N = N / 10;
         }
-        System.out.println(sum);
+        System.out.println("sum of digit is = " +sum);
         sc.close();
     }
 }
