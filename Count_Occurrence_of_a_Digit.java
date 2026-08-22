@@ -4,7 +4,7 @@ public class Count_Occurrence_of_a_Digit {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("enter number = ");
- int n = sc.nextInt();
+        int n = sc.nextInt();
 
         System.out.println("enter a digit = ");
 
