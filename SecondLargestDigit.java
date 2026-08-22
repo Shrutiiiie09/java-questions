@@ -5,6 +5,7 @@ public class SecondLargestDigit {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.print("Enter number: ");
         int n = sc.nextInt();
 
         int largest = -1;
