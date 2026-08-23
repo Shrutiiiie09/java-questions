@@ -5,7 +5,7 @@ public class PrimeNumbersInRange {
 
         Scanner sc = new Scanner(System.in);
 
-        
+        System.out.print("Enter start: ");
         int start = sc.nextInt();
 
         System.out.print("Enter end: ");
