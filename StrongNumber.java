@@ -5,7 +5,7 @@ public class StrongNumber {
 
         Scanner sc = new Scanner(System.in);
 
-        
+        System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
         int original = n;
