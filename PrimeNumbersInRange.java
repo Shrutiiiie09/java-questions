@@ -15,7 +15,6 @@ public class PrimeNumbersInRange {
 
             boolean isPrime = true;
 
-            // Numbers less than 2 are not prime
             if (i < 2) {
                 isPrime = false;
             } else {
