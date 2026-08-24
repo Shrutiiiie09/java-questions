@@ -5,7 +5,7 @@ public class StrongNumber {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.print("Enter a number = ");
         int n = sc.nextInt();
 
         int original = n;
@@ -20,7 +20,6 @@ public class StrongNumber {
             for (int i = 1; i <= digit; i++) {
                 factorial = factorial * i;
             }
-
             sum = sum + factorial;
 
             n = n / 10;
