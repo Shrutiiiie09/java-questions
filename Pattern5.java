@@ -6,6 +6,7 @@ public class Pattern5 {
 
         System.out.print("Enter x to be printed = ");
         int n = sc.nextInt();
+        System.out.println("here your pattern = ");
 
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n-i; j++) {
