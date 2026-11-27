@@ -14,7 +14,7 @@ public class primeNumber1 {
             }
             }
             if (count==2) {
-            System.out.print(i+" ");
+            System.out.print(i+" prime ");
             
         }
         }
